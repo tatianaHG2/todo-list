@@ -1,13 +1,11 @@
-import TaskManager from "./componentes/TaskManager"
+import TaskManager from "./components/taskmanager";
 
 function App() {
   return (
-    <div className='h-screen flex w-screen p-20 justify-center bg-gray-100'> 
+    <div className="h-screen flex w-screen p-20 justify-center bg-gray-100 ">
       <TaskManager />
     </div>
-
-    
-  )
+  );
 }
 
-export default App
+export default App;
